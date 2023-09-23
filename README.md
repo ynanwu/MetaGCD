@@ -22,7 +22,7 @@ Either of these commands will automatically install all required dependecies **e
 
 ## Training
 We provide the training script for the following 3 datasets from the NCD benchmark: [CIFAR10](https://pytorch.org/vision/stable/datasets.html)
-, [CIFAR100](https://pytorch.org/vision/stable/datasets.html) and `Tiny-ImageNet`. To train the models in the paper, run the following commands:
+, [CIFAR100](https://pytorch.org/vision/stable/datasets.html) and [Tiny-ImageNet](https://image-net.org/download.php). To train the models in the paper, run the following commands:
 
 ```Training
 python run.py --dataset <dataset>
