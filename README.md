@@ -36,3 +36,15 @@ To evaluate trained models, run:
 ```eval
 python run.py --dataset <dataset> --data_dir <path to data folder> --test
 ```
+
+## Citation
+If you find this codebase useful in your research, consider citing:
+```
+@inproceedings{
+    wu2023metagcd,
+    title={MetaGCD: Learning to Continually Learn in Generalized Category Discovery},
+    author={Yanan Wu and Zhixiang Chi and Yang Wang and and Songhe Feng},
+    booktitle={Thirty-Sixth Conference on International Conference on Computer Vision (ICCV)},
+    year={2023}
+}
+```
