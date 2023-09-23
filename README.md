@@ -28,7 +28,7 @@ We provide the training script for the following 3 datasets from the NCD benchma
 python methods/contrastive_training/contrastive_learning_based_MAML.py --run_mode 'MetaTrain' --dataset_name <dataset>
 ```
 
-The data will be automatically downloaded to the data folder.
+Set paths to datasets, pre-trained models and desired log directories in ```config.py```
 
 ## Online Incremental Learning
 
