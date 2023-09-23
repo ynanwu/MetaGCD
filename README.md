@@ -21,7 +21,7 @@ If you have any problem with the above command, you can also install them by `pi
 Either of these commands will automatically install all required dependecies **except for the `torch-scatter` and `torch-geometric` packages** , which require a [quick manual install](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html#installation-via-binaries).
 
 ## Training
-We provide the training script for the following 3 datasets from the NCD benchmark: `CIFAR10` [CIFAR-10/100](https://pytorch.org/vision/stable/datasets.html)
+We provide the training script for the following 3 datasets from the NCD benchmark: [CIFAR10](https://pytorch.org/vision/stable/datasets.html)
 , `CIFAR100` and `Tiny-ImageNet`. To train the models in the paper, run the following commands:
 
 ```Training
