@@ -20,22 +20,22 @@ If you have any problem with the above command, you can also install them by `pi
 
 Either of these commands will automatically install all required dependecies **except for the `torch-scatter` and `torch-geometric` packages** , which require a [quick manual install](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html#installation-via-binaries).
 
-## Training
+## Offline Train
 We provide the training script for the following 3 datasets from the NCD benchmark: [CIFAR10](https://pytorch.org/vision/stable/datasets.html)
 , [CIFAR100](https://pytorch.org/vision/stable/datasets.html) and [Tiny-ImageNet](https://image-net.org/download.php). To train the models in the paper, run the following commands:
 
-```Training
-python run.py --dataset <dataset>
+```Meta Training
+python methods/contrastive_training/contrastive_learning_based_MAML.py --run_mode 'MetaTrain' --dataset_name <dataset>
 ```
 
 The data will be automatically downloaded to the data folder.
 
-## Evaluation
+## Online Incremental Learning
 
-To evaluate trained models, run:
+To evaluate meta-trained models, run:
 
 ```eval
-python run.py --dataset <dataset> --data_dir <path to data folder> --test
+python methods/contrastive_training/contrastive_learning_based_MAML.py --run_mode 'MetaTest' --dataset_name <dataset>
 ```
 
 ## Citation
