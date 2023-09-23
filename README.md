@@ -13,7 +13,7 @@ We recommend using conda environment to setup all required dependencies:
 
 ```setup
 conda env create -f environment.yml
-conda activate dmoe
+conda activate MetaGCD
 ```
 
 If you have any problem with the above command, you can also install them by `pip install -r requirements.txt`.
