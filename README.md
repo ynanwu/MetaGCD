@@ -7,7 +7,7 @@ This repository is the official implementation of [MetaGCD: Learning to Continua
 
 ## Requirements
 
-The code was tested on python3.7 and CUDA10.1.
+The code was tested on python3.6 pytorch1.4.0 and CUDA9.2.
 
 We recommend using conda environment to setup all required dependencies:
 
@@ -17,8 +17,6 @@ conda activate MetaGCD
 ```
 
 If you have any problem with the above command, you can also install them by `pip install -r requirements.txt`.
-
-Either of these commands will automatically install all required dependecies **except for the `torch-scatter` and `torch-geometric` packages** , which require a [quick manual install](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html#installation-via-binaries).
 
 ## Offline Train
 We provide the training script for the following 3 datasets from the NCD benchmark: [CIFAR10](https://pytorch.org/vision/stable/datasets.html)
